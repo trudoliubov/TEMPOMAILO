@@ -9,6 +9,7 @@ A simple wrapper https://mail.tm/ API client that allows you to receive emails. 
 
 Just add dependency
 
+Gradle:
 ```groovy
     allprojects {
         repositories {
@@ -20,6 +21,21 @@ Just add dependency
     dependencies {
         implementation 'com.github.trudoliubov:tempomeilo:$version'
     }
+```
+Maven:
+```xml
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <dependency>
+        <groupId>com.github.trudoliubov</groupId>
+        <artifactId>tempomeilo</artifactId>
+        <version>$version</version>
+    </dependency>
 ```
 
 ## Samples
