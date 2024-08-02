@@ -21,7 +21,7 @@ import tm.email.model.token.TokenRoot;
 
 import java.io.IOException;
 
-public class Api {
+public class Tempomeilo {
 
     private final String BASE_URI = "https://api.mail.tm/";
     private static final String HEADER_CONTENT_TYPE = "Content-Type";
