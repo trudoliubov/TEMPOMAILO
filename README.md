@@ -1,4 +1,4 @@
-# TEMPOMEILO
+# TEMPOMAILO
 
 ## Description
 A simple wrapper https://mail.tm/ API client that allows you to receive emails. Gererate random email address and read emails.
@@ -19,7 +19,7 @@ Gradle:
     }
 
     dependencies {
-        implementation 'com.github.trudoliubov:tempomeilo:$version'
+        implementation 'com.github.trudoliubov:tempomailo:$version'
     }
 ```
 Maven:
@@ -33,7 +33,7 @@ Maven:
 
     <dependency>
         <groupId>com.github.trudoliubov</groupId>
-        <artifactId>tempomeilo</artifactId>
+        <artifactId>tempomailo</artifactId>
         <version>$version</version>
     </dependency>
 ```
@@ -42,7 +42,7 @@ Maven:
 
 ```java
 public MyClass() {
-    Api tmMail = new Tempomeilo();
+    Api tmMail = new Tempomailo();
     // Get domain
     String domain = tmMail.getDomains(1).getHydraMember().get(0).getDomain();
     // Get account
